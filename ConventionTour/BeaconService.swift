@@ -54,7 +54,7 @@ class BeaconService: NSObject, CLLocationManagerDelegate
     func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
         locationManager!.startRangingBeaconsInRegion(beaconRegion!)
         
-         NSLog("%@", "Did enter region")
+         NSLog("%@", "Did enter region1111")
     }
     
     func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
